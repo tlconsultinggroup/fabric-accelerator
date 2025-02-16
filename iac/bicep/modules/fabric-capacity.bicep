@@ -57,7 +57,7 @@ resource fabricCapacity 'Microsoft.Fabric/capacities@2023-11-01' = {
   }
   properties: {
     administration: {
-      members: split(adminUsers, ',')
+      members: ["vanquan.dong@tlconsulting.com.au"]
     }
   }
 }
